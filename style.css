@@ -1,0 +1,628 @@
+header .container .row {
+  display: flex;
+  align-items: center;
+}
+header .container .row .logo img {
+  width: auto;
+  height: auto;
+}
+header .container .row .text ul li a {
+  color: black;
+}
+header .container .row .text ul li .text1 {
+  color: rgb(210, 49, 102);
+}
+header .container .row .text ul li :active {
+  color: white;
+}
+header .container .row .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .container .row .button button {
+  width: 90%;
+  background-color: rgb(210, 49, 102);
+  border-radius: 5px;
+  border: 0px;
+  padding: 10px 30px 10px 30px;
+  margin: 5px 0px 5px 0px;
+}
+header .container .row .button :active {
+  color: rgb(0, 0, 0);
+  box-shadow: 1px 1px 8px 1px rgb(148, 148, 148);
+}
+header .header2 {
+  background-color: rgb(248, 237, 240);
+}
+header .header2 .row .text {
+  margin: 15% 0% 15% 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .header2 .row .text .block .text1 {
+  font-weight: bold;
+}
+header .header2 .row .text .block .text2 {
+  font-family: "Concert One", cursive;
+  margin-bottom: 5%;
+}
+header .header2 .row .text .block .text2 span {
+  color: rgb(210, 49, 102);
+}
+header .header2 .row .text .block .text3 {
+  color: rgb(103, 103, 103);
+}
+header .header2 .row .text .block .button2 {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+header .header2 .row .text .block .button2 button {
+  background-color: rgb(210, 49, 102);
+  border-radius: 5px;
+  border: 0px;
+  padding: 10px 30px 10px 30px;
+}
+header .header2 .row .text .block .button2 :active {
+  color: rgb(0, 0, 0);
+  box-shadow: 1px 1px 8px 1px rgb(148, 148, 148);
+}
+header .header2 .row .slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .main1 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+main .main1 .row .block {
+  box-shadow: 1px 1px 8px 1px rgb(241, 241, 241);
+  padding: 20px 10px 20px 10px;
+  margin: 10px 0px 10px 0px;
+  max-height: 210px;
+  min-height: 210px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .main1 .row .block .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .main1 .row .block .text1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .main1 .row .block .text1 h4 {
+  text-align: center;
+}
+main .main1 .row .block .text2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .main1 .row .block .text2 p {
+  text-align: center;
+}
+main .main2 {
+  background-color: rgb(248, 237, 240);
+}
+main .main2 .row .text {
+  margin: 15% 0% 15% 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .main2 .row .text .block .text1 {
+  font-weight: bold;
+}
+main .main2 .row .text .block .text2 {
+  margin-bottom: 5%;
+}
+main .main2 .row .text .block .text2 span {
+  color: rgb(210, 49, 102);
+}
+main .main2 .row .text .block .button2 {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+main .main2 .row .text .block .button2 button {
+  background-color: rgb(210, 49, 102);
+  border-radius: 5px;
+  border: 0px;
+  padding: 10px 30px 10px 30px;
+}
+main .main2 .row .text .block .button2 :active {
+  color: rgb(0, 0, 0);
+  box-shadow: 1px 1px 8px 1px rgb(148, 148, 148);
+}
+main .main2 .row .slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .main3 .row .text1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5% 0% 0% 0%;
+}
+main .main3 .row .text1 h1 {
+  color: black;
+}
+main .main3 .row .text2 {
+  margin: 0% 0% 5% 0%;
+}
+main .main3 .row .text2 ul li a {
+  color: black;
+}
+main .main3 .row .text2 ul li :active {
+  color: rgb(210, 49, 102);
+}
+main .main4 hr {
+  color: red;
+  height: 1px;
+}
+main .main4 .row1 {
+  margin: 40px 0px 40px 0px;
+}
+main .main4 .row1 .Text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .main4 .row1 .Text .block .summa {
+  display: flex;
+}
+main .main4 .row1 .Text .block .summa .text1 {
+  color: black;
+  font-weight: bold;
+  font-size: 120%;
+}
+main .main4 .row1 .Text .block .summa .text2 {
+  color: rgb(43, 43, 43) 0, 0, 0;
+  text-decoration: line-through;
+  margin-top: 0.5%;
+  margin-left: 3%;
+}
+main .main4 .row1 .Text .block .button {
+  display: flex;
+  justify-content: start;
+}
+main .main4 .row1 .Text .block .button button {
+  border: 0px;
+  padding: 10px 30px 10px 30px;
+  background-color: rgb(214, 67, 116);
+}
+main .main4 .row1 .Text .block .button :active {
+  color: black;
+  box-shadow: 1px 1px 8px 1px rgb(148, 148, 148);
+}
+main .main4 .row2 {
+  margin: 40px 0px 40px 0px;
+}
+main .main4 .row2 .Text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .main4 .row2 .Text .block h3 {
+  text-align: end;
+}
+main .main4 .row2 .Text .block p {
+  text-align: end;
+}
+main .main4 .row2 .Text .block .summa {
+  display: flex;
+  justify-content: end;
+}
+main .main4 .row2 .Text .block .summa .text1 {
+  color: black;
+  font-weight: bold;
+  font-size: 120%;
+}
+main .main4 .row2 .Text .block .summa .text2 {
+  color: rgb(43, 43, 43) 0, 0, 0;
+  text-decoration: line-through;
+  margin-top: 0.5%;
+  margin-left: 3%;
+}
+main .main4 .row2 .Text .block .button {
+  display: flex;
+  justify-content: end;
+}
+main .main4 .row2 .Text .block .button button {
+  border: 0px;
+  padding: 10px 30px 10px 30px;
+  background-color: rgb(214, 67, 116);
+}
+main .main4 .row2 .Text .block .button :active {
+  color: black;
+  box-shadow: 1px 1px 8px 1px rgb(148, 148, 148);
+}
+main .main4 .row3 {
+  margin: 40px 0px 40px 0px;
+}
+main .main4 .row3 .Text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .main4 .row3 .Text .block .summa {
+  display: flex;
+}
+main .main4 .row3 .Text .block .summa .text1 {
+  color: black;
+  font-weight: bold;
+  font-size: 120%;
+}
+main .main4 .row3 .Text .block .summa .text2 {
+  color: rgb(43, 43, 43) 0, 0, 0;
+  text-decoration: line-through;
+  margin-top: 0.5%;
+  margin-left: 3%;
+}
+main .main4 .row3 .Text .block .button {
+  display: flex;
+  justify-content: start;
+}
+main .main4 .row3 .Text .block .button button {
+  border: 0px;
+  padding: 10px 30px 10px 30px;
+  background-color: rgb(214, 67, 116);
+}
+main .main4 .row3 .Text .block .button :active {
+  color: black;
+  box-shadow: 1px 1px 8px 1px rgb(148, 148, 148);
+}
+main .main4 .row4 {
+  margin: 40px 0px 40px 0px;
+}
+main .main4 .row4 .Text .block .text1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+main .main4 .row4 .Text .block .text2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .main4 .row4 .Text .block .text2 p {
+  margin: 20px 0px 30px 0px;
+}
+main .main4 .row4 .Text .block .image1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .main4 .row4 .Text .block .image1 img {
+  width: 70%;
+}
+main .main4 .row4 .Text .block .image2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .main4 .row4 .Text .block .image3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .main4 .row4 .Text .block .image3 img {
+  width: 100%;
+}
+main .main4 .row4 .Text .block .image4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .main4 .row4 .Text .block .image4 img {
+  width: 70%;
+}
+main .main4 .row4 .Text .block .image5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .main4 .row4 .Text .block .image5 img {
+  width: 100%;
+}
+main .main4 .row4 .Text .block .image6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .main5 {
+  background-color: rgb(248, 237, 240);
+}
+main .main5 .container .row .mobile_phone {
+  margin: 50px 0px 50px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .main5 .container .row .text {
+  margin: 50px 0px 50px 0px;
+}
+main .main5 .container .row .text .knopka1 {
+  margin: 2px 1px 5px 1px;
+}
+main .main5 .container .row .text .knopka1 .image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .main5 .container .row .text .knopka1 .image a {
+  background-color: white;
+  min-width: 50px;
+  max-width: 50px;
+  min-height: 50px;
+  max-height: 50px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .main5 .container .row .text .knopka1 .image a img {
+  margin: 10px 20px 10px 20px;
+}
+main .main5 .container .row .text .knopka1 .text_ {
+  display: flex;
+  align-items: end;
+  justify-content: start;
+}
+main .main5 .container .row .text .knopka1 .text_ p {
+  font-size: 120%;
+  font-weight: 600;
+}
+main .main5 .container .row .text .knopka2 {
+  margin: 2px 1px 5px 1px;
+}
+main .main5 .container .row .text .knopka2 .image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .main5 .container .row .text .knopka2 .image a {
+  background-color: white;
+  min-width: 50px;
+  max-width: 50px;
+  min-height: 50px;
+  max-height: 50px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .main5 .container .row .text .knopka2 .image a img {
+  margin: 10px 20px 10px 20px;
+}
+main .main5 .container .row .text .knopka2 .text_ {
+  display: flex;
+  align-items: end;
+  justify-content: start;
+}
+main .main5 .container .row .text .knopka2 .text_ p {
+  font-size: 120%;
+  font-weight: 600;
+}
+main .main5 .container .row .text .knopka3 {
+  margin: 2px 1px 5px 1px;
+}
+main .main5 .container .row .text .knopka3 .image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .main5 .container .row .text .knopka3 .image a {
+  background-color: white;
+  min-width: 50px;
+  max-width: 50px;
+  min-height: 50px;
+  max-height: 50px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .main5 .container .row .text .knopka3 .image a img {
+  margin: 10px 20px 10px 20px;
+}
+main .main5 .container .row .text .knopka3 .text_ {
+  display: flex;
+  align-items: end;
+  justify-content: start;
+}
+main .main5 .container .row .text .knopka3 .text_ p {
+  font-size: 120%;
+  font-weight: 600;
+}
+main .main5 .container .row .text .app {
+  margin: 30px 0px 30px 0px;
+}
+main .main5 .container .row .text .app .play_market {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .main5 .container .row .text .app .play_market a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .main5 .container .row .text .app .play_market a img {
+  width: 90%;
+}
+main .main5 .container .row .text .app .app_store {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .main5 .container .row .text .app .app_store a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .main5 .container .row .text .app .app_store a img {
+  width: 80%;
+}
+main .main6 .row .Text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 60px 0px 30px 0px;
+}
+main .main6 .row .Text h1 {
+  text-align: center;
+  align-items: center;
+}
+main .main6 .row .Inputs .row .input1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px 10px 0px;
+}
+main .main6 .row .Inputs .row .input1 form {
+  width: 100%;
+  border: 1px rgb(214, 67, 116) solid;
+  border-radius: 5px;
+}
+main .main6 .row .Inputs .row .input1 form input {
+  padding: 12px 15px 12px 15px;
+  width: 100%;
+  border: 0px;
+}
+main .main6 .row .Inputs .row .input2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px 10px 0px;
+}
+main .main6 .row .Inputs .row .input2 .input-group {
+  border: 1px rgb(214, 67, 116) solid;
+  border-radius: 5px;
+}
+main .main6 .row .Inputs .row .input2 .input-group select {
+  padding: 12px 15px 12px 15px;
+  width: 100%;
+  border: 0px;
+}
+main .main6 .row .Inputs .row .input2 .input-group select option {
+  background-color: rgb(255, 255, 255);
+  border: 0px;
+}
+main .main6 .row .Inputs .row .input3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px 80px 0px;
+}
+main .main6 .row .Inputs .row .input3 form {
+  border: 1px rgb(214, 67, 116) solid;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  width: 100%;
+}
+main .main6 .row .Inputs .row .input3 form ::-moz-placeholder {
+  color: rgb(45, 45, 45);
+}
+main .main6 .row .Inputs .row .input3 form ::placeholder {
+  color: rgb(45, 45, 45);
+}
+main .main6 .row .Inputs .row .input3 form input {
+  padding: 12px 15px 12px 15px;
+  border: 0px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+main .main6 .row .Inputs .row .input3 form button {
+  border: 0px;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  background-color: rgb(214, 67, 116);
+}
+
+footer {
+  background-color: rgb(10, 8, 8);
+}
+footer .container .row .logo {
+  margin: 50px 0px 0px 10px;
+  display: flex;
+  justify-content: first baseline;
+  align-items: center;
+}
+footer .container .row .text {
+  margin: 30px 0px 30px 0px;
+}
+footer .container .row .text p {
+  color: rgb(152, 152, 152);
+}
+footer .container .row .text .p {
+  color: white;
+  font-weight: 700;
+}
+footer .container .row .text .buttons a img {
+  width: 30px;
+  margin: 3px;
+  border-radius: 5px;
+}
+footer .container .row .text2 {
+  margin: 30px 0px 30px 0px;
+}
+footer .container .row .text2 a {
+  color: rgb(152, 152, 152);
+  text-decoration: none;
+}
+footer .container .row .text2 .first {
+  font-weight: 700;
+  color: white;
+}
+footer .container .row .text3 {
+  margin: 30px 0px 30px 0px;
+}
+footer .container .row .text3 a {
+  color: rgb(152, 152, 152);
+  text-decoration: none;
+}
+footer .container .row .input {
+  margin: 30px 0px 30px 0px;
+}
+footer .container .row .input h5 {
+  color: white;
+}
+footer .container .row .input form {
+  border: 1px rgb(214, 67, 116) solid;
+  background-color: rgb(0, 0, 0);
+  border-radius: 5px;
+  width: 100%;
+}
+footer .container .row .input form ::-moz-placeholder {
+  color: rgb(152, 152, 152);
+}
+footer .container .row .input form ::placeholder {
+  color: rgb(152, 152, 152);
+}
+footer .container .row .input form input {
+  padding: 12px 15px 12px 15px;
+  border: 0px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+footer .container .row .input form button {
+  border: 0px;
+  color: white;
+  border-radius: 5px;
+  background-color: rgb(214, 67, 116);
+}/*# sourceMappingURL=style.css.map */
